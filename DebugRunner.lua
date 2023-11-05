@@ -21,6 +21,7 @@ function TestMathandNumLett()
  a = 7
  b = 6
  loop = 0
- while loop ~= 
- Math()
+ while loop ~= 7
+  Math()
+ end
 end
