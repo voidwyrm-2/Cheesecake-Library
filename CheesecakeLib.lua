@@ -77,3 +77,9 @@ function Clamp(val, min, max) --if the given value goes above/below the given ma
   return val
  end
 end
+
+function NumToLett(num)
+ LetterTable = {
+  
+ }
+end
