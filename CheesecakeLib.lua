@@ -67,5 +67,13 @@ end
 --]]
 
 function Clamp(val, min, max)
- 
+ min = Default(min, 0)
+ max = Default(max, 1)
+ if val < min then
+  return min
+ elseif val > max then
+  return max
+ else --elseif val 
+  return val
+ end
 end
