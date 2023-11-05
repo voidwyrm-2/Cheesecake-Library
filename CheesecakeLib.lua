@@ -55,3 +55,17 @@ do
  end
 end
 --]]
+
+function Default(val, def) --if the given value is nil, instead return the given default
+ if val == nil then
+  return def
+ elseif val ~= nil then
+  return val
+ end
+end
+--[[
+--]]
+
+function Clamp(val, min, max)
+ 
+end
