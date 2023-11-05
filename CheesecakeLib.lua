@@ -66,7 +66,7 @@ end
 --[[
 --]]
 
-function Clamp(val, min, max)
+function Clamp(val, min, max) --if the given value goes above/below the given maximum/minimum, return the maximum/minimum
  min = Default(min, 0)
  max = Default(max, 1)
  if val < min then
