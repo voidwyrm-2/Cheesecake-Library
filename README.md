@@ -1,4 +1,4 @@
 # Cheesecake-Library
-A Lua library I made for things I make
+A bunch of functions I made to make my life easier when I use Lua
 
-feel free to suggest function and use this in your projects
+feel free to use these functions in your projects, of course
