@@ -1,38 +1,3 @@
---[[
- a bunch of functions for general use
---]]
-
-function Math(x, y, op) --multipurpose math function
- if x = then
- end
- if op == 'A' or 1 then --addition
-  local result = x + y
- elseif op == 'S' --[[or 'B']] or 2 then --subtraction
-  local result = x - y
- elseif op == 'M' --[[or 'C']] or 3 then --multiplication
-  local result = x * y
- elseif op == 'D' or 4 then --divison
-  local result = x / y
- elseif op == 'P' or 5 then --to power
-  local result = x ^ y
- else --anything defaults to addition
-  local result = x + y
- end
- 
- return result
-end
---[[ Math() example
-do
- a = Math(3, 7, 3)
- b = Math(a, 2, 3)
- print(b)
-
- c = Math(3, 7, M)
- d = Math(c, 2, M)
- print(d)
-end
---]]
-
 function Equals(x, y) --analogous to C#'s thing.equals
  if x == y then --values equal? 
   return true --if equal then true
